@@ -1,24 +1,29 @@
 # Project Idea
 
-## Title: Your snappy project title
+## Title: 
+Revolutionizing Beverage Packaging Waste: AI-Powered Classification for Efficient Sorting and Recycling
 
 ---
 
 ## Idea: 
-Complete the sentence:
-
-**I want my project to be able to (1) .................... using the (2)............... on my (3)...........**
 
 
-1. *e.g. detect when i say "wotcha", recognise a bird in a live camera stream etc*
-2. *e.g. camera, microphone, accelerometer etc*
-3. *e.g. arduino, laptop, RPi etc*
+
+**I want my project to be able to (1) classify Beverage Packaging Waste using the (2) camera on my (3) mobile device**
+
+
+
+
 
 ---
 
 ## Data:
-Also think about: 
-What data will you use and what data will you capture?
+
+I will use the ["Drinking Waste Classification"](https://www.kaggle.com/datasets/arkadiyhacks/drinking-waste-classification) dataset published on [Kaggle](https://www.kaggle.com/).  
+
+**About the Dataset:**
+
+4 classes of drinking waste: Aluminium Cans, Glass bottles, PET (plastic) bottles and HDPE (plastic) Milk bottles. This dataset was manually labelled and collected as a part of final year Individual Project at University College London.
 
 
 ----
