@@ -29,3 +29,15 @@ I will use the ["Drinking Waste Classification"](https://www.kaggle.com/datasets
 ----
 
 Note: in addition to editing the text here, also remember to add the above information to one sticky note on the Miro board.
+
+## Models:
+<img width="1200" alt="Screenshot 2022-03-20 at 13 10 31" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Projects/else/excel.png">
+
+## Issues:
+<img width="1200" alt="Screenshot 2022-03-20 at 13 10 31" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Projects/else/Overfitting.png">
+
+<img width="1200" alt="Screenshot 2022-03-20 at 13 10 31" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Projects/else/QR.png">
+
+<img width="1200" alt="Screenshot 2022-03-20 at 13 10 31" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Projects/Edge%20Impulse/Error%20Low%20accuracy.jpeg">
+
+<img width="1200" alt="Screenshot 2022-03-20 at 13 10 31" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Projects/else/labbelling.png">
