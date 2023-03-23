@@ -14,7 +14,6 @@
 
 [RGB “Other/Background” images](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
 
-[Google Drive folder 📂](https://drive.google.com/drive/folders/1CrYkcADjdlK3Fxz8HADMHkKcTUMTqdtK?usp=sharing)  
 
 ### 2. Edge Impulse project links: 
 
@@ -34,6 +33,8 @@
 [The Keras Sequential model hyper-parameters Evaluations](https://wandb.ai/leoliu11/projects)
 
 ["Examine the Keras Sequential model in Beverage Packaging Waste Classification" report](https://wandb.ai/leoliu11/Optimizers/reports/Examine-the-Keras-Sequential-model-in-Beverage-Packaging-Waste-Classification--VmlldzozNzkyNTU4)
+
+[Datasets for The Keras Sequential model are stored on Google Drive 📂 ](https://drive.google.com/drive/folders/1CrYkcADjdlK3Fxz8HADMHkKcTUMTqdtK?usp=sharing)  
 
 ### 5. Final Report: 
 
