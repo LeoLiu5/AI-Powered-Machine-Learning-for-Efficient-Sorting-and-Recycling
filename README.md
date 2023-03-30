@@ -25,6 +25,8 @@
 
 ### 3. Colab with TensorFlow:
 
+[Datasets for The Keras Sequential model are stored on Google Drive 📂 ](https://drive.google.com/drive/folders/1CrYkcADjdlK3Fxz8HADMHkKcTUMTqdtK?usp=sharing)  
+
 [The Keras Sequential model](https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/The%20Keras%20Sequential%20model/Colab%20-%20The%20Keras%20Sequential%20model.ipynb)
 
 
@@ -34,7 +36,7 @@
 
 ["Examine the Keras Sequential model in Beverage Packaging Waste Classification" report](https://wandb.ai/leoliu11/Optimizers/reports/Examine-the-Keras-Sequential-model-in-Beverage-Packaging-Waste-Classification--VmlldzozNzkyNTU4)
 
-[Datasets for The Keras Sequential model are stored on Google Drive 📂 ](https://drive.google.com/drive/folders/1CrYkcADjdlK3Fxz8HADMHkKcTUMTqdtK?usp=sharing)  
+
 
 ### 5. Final Report: 
 
