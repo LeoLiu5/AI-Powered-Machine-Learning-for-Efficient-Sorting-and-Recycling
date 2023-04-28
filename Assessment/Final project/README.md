@@ -16,7 +16,7 @@ My project experimented with image classification and object detection models. T
 
 
 
-The object detection application takes an image as an input and outputs the types, numbers, positions, and sizes of drinking wates from the image:
+The object detection application takes an image as an input and outputs the types, numbers, positions, and sizes of drinking wastes from the image:
 
 
 
@@ -89,7 +89,7 @@ Model training results, description of training runs, and model architecture cho
  
 Model training results, description of training runs, and model architecture choices for object detection using Edge Impulse can be found in the ["Object Detection" folder.](https://github.com/LeoLiu5/casa0018-final-project/tree/main/Assessment/Final%20project/Edge%20Impulse/Object%20Detection)
 
-Visual record of experiments can be found in the ["Real-world deployment" folder.](https://github.com/LeoLiu5/casa0018-final-project/tree/main/Assessment/Final%20project/Real-world%20deployment)
+The visual record of experiments can be found in the ["Real-world deployment" folder.](https://github.com/LeoLiu5/casa0018-final-project/tree/main/Assessment/Final%20project/Real-world%20deployment)
 
 ## Critical reflection and learning from experiments 
 
@@ -103,11 +103,11 @@ Almost all the validation accuracies are lower than the training accuracies beca
 
 
 
-### Factors Incluencing Results
+### Factors Influencing Results
 
 The number of epochs, the number of neurons, batch size, and the learning rate require careful consideration. It is inaccurate to assume that the higher their values are, the better the results. Once their most suitable values are surpassed, the model performance will decrease or present no significant changes.
 
-Other important factors need to be considered are image size and resolution, optimizer, and image background.
+Other important factors that need to be considered are image size and resolution, optimizer, and image background.
 
 ### Weaknesses 
 
@@ -139,6 +139,3 @@ I will use CCD cameras and advanced algorithms following current research to dev
 "Using texture images as background dataset is a good approach. Constructed a basic Keras model and experimented with the best optimizers. Tried with object detection. The reflection is effective. Did not compare the training loss and validation loss which might solve overfitting."
 
 "Model performs a high accuracy; Included many model's trials using different parameters; Exploration of Neural networks in Keras mode. This is a presented and thoughtful project."
-
-
-
