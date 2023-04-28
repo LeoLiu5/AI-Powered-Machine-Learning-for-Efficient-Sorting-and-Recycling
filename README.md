@@ -40,7 +40,7 @@
 
 ### 5. Final Report: 
 
-Report -> README.md
+[Report -> README.md](https://github.com/LeoLiu5/casa0018-final-project/tree/main/Assessment/Report)
 
 ### 6. Presentation and Demo video
 https://www.youtube.com/watch?v=3YktyY9RKEQ
