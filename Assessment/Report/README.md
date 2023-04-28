@@ -18,11 +18,11 @@ Near-infrared reflectance measurement is an effective method to identify plastic
 
 Classifying packaging wastes is a challenging assignment which requires advanced technologies and equipment. Because of my limited experience with machine learning and hardware optimization, I used Edge Impulse to learn how to train image classification and object detection models to accurately and efficiently sort beverage packaging wastes, including aluminum cans, glass bottles, plastic bottles, and milk containers. The real-world applications were deployed on mobile devices.
 
-<img width="500" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 1.png">
+<img width="500" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%201.png">
 
 Figure 1. An AI-powered robotic system (Ahmed & Asadullah, 2020).
 
-<img width="500" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 2.png">
+<img width="500" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%202.png">
 
 Figure 2. QDA and tree classifiers ensure the accuracy of colour detection, while the CCD camera captures high-quality images for analysis (Tachwali et al., 2007).
 
@@ -38,15 +38,15 @@ The input images are preprocessed, which involves transforming raw images into a
 
 Feature extraction involves identifying and extracting relevant features such as shape, colour, and texture from the preprocessed images. These features train models to recognize and classify different objects or patterns in the images. The output is the classified beverage packaging type, which is used to sort the recyclable materials.
 
-<img width="200" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/Edge Impulse/Transfer learning for image classification/Trial 1/5.png">
+<img width="200" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/Edge%20Impulse/Transfer%20learning%20for%20image%20classification/Trial%201/5.png">
 
 Figure 3. Image classification mobile application.
 
-<img width="200" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/Edge Impulse/Object Detection/FOMO-testing learning rate/Figure 4.png">
+<img width="200" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/Edge%20Impulse/Object%20Detection/FOMO-testing%20learning%20rate/Figure%204.png">
 
 Figure 4. Object detection mobile application.
 
-<img width="400" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 3.png">
+<img width="400" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%203.png">
 
 Figure 5. Application workflow.
 
@@ -56,15 +56,15 @@ I downloaded the Drinking Waste Classification dataset collected with a 12 MP ph
 
 I included background images to identify background or noise from the input images. I suspected the RGB backgrounds from the training images were too colourful and distractive. Therefore, I downloaded a black-and-white image dataset of surface texture and created a grayscale "Other/Background" classification (Fig 7). I also downloaded another colourful image dataset of describable textures and experimented with an RGB "Other/Background" classification (Fig 8). I anticipated adding a grayscale or RGB "Other/Background" classification will improve model accuracy.
 
-<img width="500" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 6.png">
+<img width="500" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%206.png">
 
 Figure 6. Drinking Waste Classification dataset (https://www.kaggle.com/datasets/arkadiyhacks/drinking-waste-classification).
 
-<img width="400" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 7.png">
+<img width="400" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%207.png">
 
 Figure 7. Grayscale Textures Classification dataset (https://github.com/abin24/Textures-Dataset).
 
-<img width="600" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 8.jpeg">
+<img width="600" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%208.jpeg">
 
 Figure 8. RGB Describable Textures dataset (https://www.robots.ox.ac.uk/~vgg/data/dtd/).
 
@@ -82,16 +82,16 @@ Finally, I tried Edge Impulse FOMO (Faster Objects, More Objects), which has the
 
 
 
-<img width="700" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 10.png">
+<img width="700" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2010.png">
 
 Figure 9. MobileNet is a complex and powerful CNN architecture designed for mobile devices (Hollemans, 2018).
 
 
-<img width="400" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 11.png">
+<img width="400" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2011.png">
 
 Figure 10. Three convolutional blocks followed by max-pooling layers are designed to extract important features from the input image while reducing the spatial dimensions of the feature maps to make computation efficient.
 
-<img width="400" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 12.png">
+<img width="400" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2012.png">
 
 Figure 11. Unlike other object detection algorithms outputting bounding boxes, FOMO outputs a heatmap and then highlights the objects, consuming up to 30x less processing power and memory than MobileNet SSD or YOLOv5 (Edge Impulse Documentation, 2022c).
 
@@ -106,40 +106,40 @@ To evaluate the effects of more hyper-parameters, I created a Keras sequential m
 
 Finally, I experimented with Edge Impulse FOMO, and measured model performance based on F1 score and test accuracy (Fig 17) (Fig 18) (Fig 19) (Fig 20).
 
-<img width="450" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 13.png">
+<img width="450" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2013.png">
 
 Figure 12. Image classification data split visualization.
 
-<img width="900" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 14.png">
+<img width="900" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2014.png">
 
 Figure 13. Results table.
 
-<img width="500" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Test objects for real-world deployment 1.jpeg">
+<img width="500" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Test%20objects%20for%20real-world%20deployment%201.jpeg">
 
 Figure 14. Testing objects.
 
-<img width="650" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 16.png">
+<img width="650" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2016.png">
 
 Figure 15. Hyper-parameters.
 
 
-<img width="450" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 17.png">
+<img width="450" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2017.png">
 
 Figure 16. The Keras Sequential model data split visualization.
 
-<img width="450" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 18.png">
+<img width="450" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2018.png">
 
 Figure 17. Object detection data split visualization.
 
-<img width="300" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 17.5.png">
+<img width="300" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2017.5.png">
 
 Figure 18. Labelling each image using bounding boxes from the labelling queue.
 
-<img width="900" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure18.png">
+<img width="900" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure18.png">
 
 Figure 19. Results table.
 
-<img width="600" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure19.png">
+<img width="600" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure19.png">
 
 Figure 20. Hyper-parameters.
 
@@ -173,28 +173,28 @@ The large-scale dataset and the limitations of the hardware or technologies caus
 
 
 
-<img width="600" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/WechatIMG72.png">
+<img width="600" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/WechatIMG72.png">
 
 Figure 21. The default batch size 32 provided the most accurate results.
 
-<img width="800" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 19.png">
+<img width="800" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2019.png">
 
 Figure 22. The model recognizes backgrounds instead of identifying everything as bottles.
 
-<img width="600" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 22.png">
+<img width="600" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2022.png">
 
 Figure 23. Adam is most popular in neural networks and useful when the dataset and the number of parameters are large (EDUCBA, 2023).
 
-<img width="600" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 23.png">
+<img width="600" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2023.png">
 
 Figure 24. N stands for Nesterov and it is more efficient than the previous implementations (EDUCBA, 2023).
 
 
-<img width="600" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 25.png">
+<img width="600" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2025.png">
 
 Figure 25. Increases in image resolution increase model performance (Thambawita et al., 2021).
 
-<img width="600" alt="image" src="/Users/leoliu/Documents/GitHub/casa0018-final-project/Assessment/Final project/else/Figure 26.png">
+<img width="600" alt="image" src="https://github.com/LeoLiu5/casa0018-final-project/blob/main/Assessment/Final%20project/else/Figure%2026.png">
 
 Figure 26. High-resolution images require more processing memory and power.
 
